@@ -258,9 +258,9 @@ def print_banner():
     print("████   ██ ██    ██    ██        ██      ██   ██  ██  ██  ██   ██    ██    ██    ██")
     print("██ ██  ██ ██    ██    ██        ██      ██████    ████   ██████     ██    ██    ██")
     print("██  ██ ██ ██    ██    ██        ██      ██   ██    ██    ██         ██    ██    ██")
-    print("██   ████  ██████     ██         ██████ ██   
-    print(" made and written by savan || @savanop")
-    print("Join telegram channel: https://t.me/savanop121")
+    print("██   ████  ██████     ██         ██████ ██")   
+    print(" made and written by savan || @NotCryptoz")
+    print("Join telegram channel: https://t.me/Instant_Earn77")
 
 if __name__ == "__main__":
     print_banner()
