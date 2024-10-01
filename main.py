@@ -251,9 +251,7 @@ def reset_proxy():
     with open('proxy.txt', 'w') as file:
         file.write('')
     log_message("Proxy data reset successfully", Fore.GREEN)
-async def main():
 def print_banner():
-    print_banner
     print("███    ██  ██████  ████████      ██████ ██████  ██    ██ ██████  ████████  ██████")
     print("████   ██ ██    ██    ██        ██      ██   ██  ██  ██  ██   ██    ██    ██    ██")
     print("██ ██  ██ ██    ██    ██        ██      ██████    ████   ██████     ██    ██    ██")
