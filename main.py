@@ -252,13 +252,13 @@ def reset_proxy():
         file.write('')
     log_message("Proxy data reset successfully", Fore.GREEN)
 async def main():
-    init()
-    banner = f"""{Fore.GREEN}
-███    ██  ██████  ████████      ██████ ██████  ██    ██ ██████  ████████  ██████  
-████   ██ ██    ██    ██        ██      ██   ██  ██  ██  ██   ██    ██    ██    ██ 
-██ ██  ██ ██    ██    ██        ██      ██████    ████   ██████     ██    ██    ██ 
-██  ██ ██ ██    ██    ██        ██      ██   ██    ██    ██         ██    ██    ██ 
-██   ████  ██████     ██         ██████ ██   ██    ██    ██         ██     ██████  
+def print_banner():
+    print_banner
+    print("███    ██  ██████  ████████      ██████ ██████  ██    ██ ██████  ████████  ██████")
+    print("████   ██ ██    ██    ██        ██      ██   ██  ██  ██  ██   ██    ██    ██    ██")
+    print("██ ██  ██ ██    ██    ██        ██      ██████    ████   ██████     ██    ██    ██")
+    print("██  ██ ██ ██    ██    ██        ██      ██   ██    ██    ██         ██    ██    ██")
+    print("██   ████  ██████     ██         ██████ ██   
     print(" made and written by savan || @savanop")
     print("Join telegram channel: https://t.me/savanop121")
 
